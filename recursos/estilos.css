@@ -1,0 +1,48 @@
+body{
+    background-color: #e8cc9c;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.column {
+    padding: 20px;
+}
+
+.left {
+    background-color: #9c667d;
+    flex-basis: 30%;
+}
+
+.right {
+    background-color: #ce938b;
+    flex-basis: 70%;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#nombre {
+    text-align: center;
+}
+.contenedor-de-imagen{
+    text-align: center;
+    margin-top: 30px;
+}
+.negrita {
+    font-weight: bold;
+}
+.info{
+    text-align: center;
+}
+.mail{
+    margin-top: 21.28px;
+    margin-bottom: 21.28px;
+}
+.dirección{
+    margin-top: 200px;
+    margin-bottom: 21.28px;
+
+}
